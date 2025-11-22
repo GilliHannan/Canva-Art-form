@@ -99,7 +99,7 @@
   <div class="container">
     <h2>הרשמה לקורס</h2>
     <p>מלאו את פרטיכם ונשלח לכם מידע מפורט על הקורס:</p>
-    <form action="https://formspree.io/f/yourFormID" method="POST">
+    <form action="https://formspree.io/f/movbwqyw" method="POST">
       <label for="firstname">שם פרטי:</label>
       <input type="text" id="firstname" name="firstname" required>
 
@@ -122,3 +122,4 @@
   </footer>
 </body>
 </html>
+
