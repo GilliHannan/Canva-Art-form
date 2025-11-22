@@ -14,36 +14,24 @@
 
     /* רקע חלל עם טכנולוגיה */
     header {
-      background-image: url("space-tech1.jpg"); /* שים כאן את שם/נתיב התמונה שלך */
+      background-image: url("space-tech.jpg"); /* שים כאן את שם התמונה שלך */
       background-size: cover;
       background-position: center;
-      position: relative;
       text-align: center;
       padding: 60px 20px;
-      min-height: 350px; /* גובה מינימלי כדי שהרקע ייראה */
-    }
-
-    /* שכבת כהות עדינה */
-    header::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0,0,0,0.3); /* שקיפות עדינה יותר */
-    }
-
-    header h1, header p {
-      position: relative;
-      z-index: 1;
+      min-height: 400px; /* גובה מינימלי כדי לראות את הרקע */
     }
 
     header h1 {
       font-size: 32px;
       margin: 0;
+      text-shadow: 2px 2px 4px black; /* טקסט קריא על רקע בהיר */
     }
 
     header p {
       font-size: 18px;
       margin: 10px 0 0;
+      text-shadow: 1px 1px 3px black;
     }
 
     .container {
