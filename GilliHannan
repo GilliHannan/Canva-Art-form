@@ -17,8 +17,8 @@
       background: url("space-tech1.jpg") no-repeat center center;
       background-size: cover;
       text-align: center;
-      padding: 60px 20px;
-      min-height: 400px; /* גובה מינימלי כדי לראות את התמונה */
+      padding: 30px 15px;
+      min-height: 150px; /* גובה מינימלי כדי לראות את התמונה */
     }
 
     header h1 {
@@ -116,4 +116,5 @@
   </footer>
 </body>
 </html>
+
 
