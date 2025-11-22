@@ -14,7 +14,7 @@
 
     /* רקע חלל עם טכנולוגיה עתידנית */
     header {
-      background: url("https://GilliHannan.github.io/Canva-Art-form/space-tech1.jpg") no-repeat center center;
+      background: url("space-tech1.jpg") no-repeat center center;
       background-size: cover;
       text-align: center;
       padding: 60px 20px;
@@ -116,3 +116,4 @@
   </footer>
 </body>
 </html>
+
