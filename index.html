@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>קורס עריכה דיגיטלית בקנבה</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    /* רקע חלל עם טכנולוגיה עתידנית */
+    header {
+      background: url("https://GilliHannan.github.io/Canva-Art-form/space-tech1.jpg") no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      padding: 60px 20px;
+      min-height: 400px; /* גובה מינימלי כדי לראות את התמונה */
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin: 0;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    header p {
+      font-size: 18px;
+      margin: 10px 0 0;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: rgba(0,0,0,0.7);
+      padding: 25px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-btn {
+      background-color: #00bcd4;
+      color: white;
+    }
+
+    .reset-btn {
+      background-color: #e91e63;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>קורס עריכה דיגיטלית בקנבה</h1>
+    <p>8 מפגשים אונליין בזום – למתחילים, כולל תעודת גמר 🎓</p>
+    <p><strong>מבצע מיוחד לרגל השנה החדשה 2026!</strong></p>
+    <p>בהנחיית מומחי האקדמיה לאומנויות הדיגיטל</p>
+  </header>
+
+  <div class="container">
+    <h2>הרשמה לקורס</h2>
+    <p>מלאו את פרטיכם ונשלח לכם מידע מפורט על הקורס:</p>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <label for="firstname">שם פרטי:</label>
+      <input type="text" id="firstname" name="firstname" required>
+
+      <label for="lastname">שם משפחה:</label>
+      <input type="text" id="lastname" name="lastname" required>
+
+      <label for="phone">טלפון / וואטסאפ:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">אימייל:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit" class="submit-btn">שלח</button>
+      <button type="reset" class="reset-btn">נקה נתונים</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2026 קורס עריכה דיגיטלית בקנבה – כל הזכויות שמורות
+  </footer>
+</body>
+</html>
