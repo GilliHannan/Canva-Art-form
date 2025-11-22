@@ -12,20 +12,18 @@
       color: white;
     }
 
-    /* רקע חלל עם טכנולוגיה */
     header {
-      background-image: url("space-tech.jpg"); /* שים כאן את שם התמונה שלך */
+      background: url("space-tech1.jpg") no-repeat center center;
       background-size: cover;
-      background-position: center;
       text-align: center;
       padding: 60px 20px;
-      min-height: 400px; /* גובה מינימלי כדי לראות את הרקע */
+      min-height: 400px; /* גובה מינימלי כדי לראות את התמונה */
     }
 
     header h1 {
       font-size: 32px;
       margin: 0;
-      text-shadow: 2px 2px 4px black; /* טקסט קריא על רקע בהיר */
+      text-shadow: 2px 2px 4px black;
     }
 
     header p {
@@ -40,7 +38,6 @@
       background: rgba(0,0,0,0.7);
       padding: 25px;
       border-radius: 8px;
-      box-shadow: 0 0 15px rgba(255,255,255,0.2);
     }
 
     label {
