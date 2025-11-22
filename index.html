@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>קורס עריכה דיגיטלית בקנבה</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 18px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 12px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .reset-btn {
+      background-color: #f44336;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>קורס עריכה דיגיטלית בקנבה</h1>
+    <p>6 מפגשים אונליין בזום – למידה חווייתית ויישומית</p>
+  </header>
+
+  <div class="container">
+    <h2>הרשמה לקורס</h2>
+    <p>מלאו את פרטיכם ונשלח לכם מידע מפורט על הקורס:</p>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <label for="fullname">שם מלא:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="phone">טלפון / וואטסאפ:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">אימייל:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit" class="submit-btn">שלח</button>
+      <button type="reset" class="reset-btn">נקה נתונים</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 קורס עריכה דיגיטלית בקנבה – כל הזכויות שמורות
+  </footer>
+</body>
+</html>
