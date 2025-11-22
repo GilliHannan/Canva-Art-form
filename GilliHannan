@@ -13,13 +13,12 @@
       background-color: #111;
     }
 
-    /* באנר עם רקע חלל */
     header {
-      background: url("space-tech1.jpg") no-repeat center center;
+      background: url("https://GilliHannan.github.io/Canva-Art-form/space-tech.jpg") no-repeat center center;
       background-size: cover;
       text-align: center;
-      padding: 30px 20px;   /* פחות ריווח פנימי */
-      min-height: 180px;    /* גובה מינימלי קטן יותר */
+      padding: 30px 20px;
+      min-height: 180px;
     }
 
     header h1 {
@@ -122,4 +121,3 @@
   </footer>
 </body>
 </html>
-
